@@ -2,17 +2,14 @@
 def speak_to_grandma(string)
   if(string.upcase)
     'I LOVE YOU TOO PUMPKIN!'
+  else
+    'HUH? SPEAK UP, SONNY!'
   end
 end
 
 # Whatever you say to grandma, she should respond with
 # HUH?! SPEAK UP, SONNY!
 # unless you shout it (type in all capitals).
-def speak_to_grandma(string)
-  if(string)
-    'HUH? SPEAK UP, SONNY!'
-  end
-end
 
 
 # If you shout, she can hear you (or at least she thinks so)
